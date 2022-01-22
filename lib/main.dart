@@ -1,4 +1,4 @@
-import 'package:api_explore/screens/auth_screen.dart';
+import 'package:api_explore/screens/upload_image.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,9 +10,9 @@ class APIExplore extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AuthUser(),
+      home: UploadImageScreen(),
     );
   }
 }
